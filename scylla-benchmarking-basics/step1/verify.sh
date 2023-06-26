@@ -1,3 +1,3 @@
 #!/bin/bash
 
-kubectl get pod my-pod
+docker exec -it scylla-labs nodetool status
