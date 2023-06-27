@@ -7,7 +7,7 @@ You may find an example stress profile under https://github.com/fee-mendes/stres
 
 Let's open a new tab and leave the actual terminal. Don't worry, we are going back there shortly ;-)
 
-Head to `Editor` in your the upper right hand corner of your terminal. From there, click on the `+` sign. After that's done, switch to the new Tab opened (likely named `Tab 2`).
+Head to `Editor` in the upper left hand corner of your terminal. From there, click on the `+` sign. After that's done, switch to the new Tab opened (likely named `Tab 2`).
 
 From there, let's copy the cassandra-stress profile inside our container:
 
