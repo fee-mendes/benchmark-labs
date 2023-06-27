@@ -33,7 +33,7 @@ cassandra-stress user profile=file:///profile.yml no-warmup 'ops(insert=1)' n=10
 After the initial ingestion completes, we may now run a mixed workload, with inserts, and two different types of read queries, as specified within the stress profile:
 
 ```shell
-cassandra-stress user profile=file:///profile.yml no-warmup 'ops(insert=10, read-latest=10, scan-partition=1)' n=1000000 -rate threads=8 -node 172.17.0.2
+cassandra-stress user profile=file:///profile.yml no-warmup 'ops(insert=10, read-latest=10, scan-partition=1)' n=100000 -rate threads=2 -node 172.17.0.2
 ```{{exec}}
 
 And that's it!
