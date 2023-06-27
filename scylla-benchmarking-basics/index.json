@@ -23,6 +23,11 @@
        "text": "step4/text.md"
       }
     ],
+    "assets": {
+      "host01": [
+        {"file": "profile.yml", "target": "~/", "chmod": "+rw"}
+      ]
+    },
     "finish": {
       "text": "finish.md"
     }
