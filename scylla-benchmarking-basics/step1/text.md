@@ -18,7 +18,7 @@ Let's take a look at each relevant parameter and understand what it does:
 
 - We specify the **container name**, which we will be using later on with `--name scylla-labs`
 - Then, we specify the ScyllaDB image to use, as we did in Step 1. This is `scylladb/scylla:5.2.2` 
-- Finally, we specify that we want ScyllaDB to restrict itself to use only **1 vCPUs** from the source machine (*--smp 1*) and only a total of 256M of memory (*--memory 256M*). You may omit or adjust these parameters as you see fit.
+- Finally, we specify that we want ScyllaDB to restrict itself to use only **1 CPU** from the source machine (*--smp 1*) and only a total of 256M of memory (*--memory 256M*). You may omit or adjust these parameters as you see fit.
 
 After our container starts, you may *optionally* check its logs to see what it is doing in the background. This can be accomplished by running the following Docker command: 
 ```shell
